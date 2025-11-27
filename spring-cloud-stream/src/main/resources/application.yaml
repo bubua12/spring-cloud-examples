@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: cloud-examples-stream
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
